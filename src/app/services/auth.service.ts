@@ -23,7 +23,7 @@ export class AuthService {
   }
 
   getToken(){
-    localStorage.getItem('token');
+    return localStorage.getItem('token');
   }
 
   isLoggedIn():boolean{
